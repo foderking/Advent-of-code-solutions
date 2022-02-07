@@ -1,4 +1,4 @@
-import pprint, re
+"""import pprint, re
 from itertools import accumulate
 
 var = open('in').read()
@@ -39,3 +39,8 @@ o = list(dir('shiny gold'))
 ree = o
 redir()
 print(list(accumulate(no)))
+"""
+from getinput import GetInput
+
+print(list(GetInput()))
+
